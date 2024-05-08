@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colorful Text Animation</title>
+<style>
+  body {
+    background-color: #001f3f; /* Dark blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .colorful-text {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    animation: changeColor 3s infinite alternate; /* Color change animation */
+  }
+  
+  @keyframes changeColor {
+    0% {
+      color: #ff5733; /* Initial color */
+    }
+    25% {
+      color: #ff7f0e; /* First color change */
+    }
+    50% {
+      color: #ffd700; /* Second color change */
+    }
+    75% {
+      color: #00ff00; /* Third color change */
+    }
+    100% {
+      color: #4b0082; /* Final color */
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="colorful-text">BRYLLE</div>
+</body>
+</html>
